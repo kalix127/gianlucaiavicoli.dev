@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.12.0",
+    "@nuxt/image": "^1.8.1",
     "@nuxtjs/i18n": "^9.0.0",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "eslint": "^9.17.0",

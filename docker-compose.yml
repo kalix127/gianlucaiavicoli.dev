@@ -1,0 +1,15 @@
+services:
+  portfolio:
+    build:
+      context: .
+    env_file:
+      - .env
+    restart: unless-stopped
+    networks:
+      - portfolio-network
+    ports:
+      - ${DOCKER_PORT}:${NITRO_PORT}
+
+networks:
+  portfolio-network:
+    driver: bridge

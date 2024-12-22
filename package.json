@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.10.3",
+    "@nuxtjs/i18n": "^9.0.0-rc.2",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"

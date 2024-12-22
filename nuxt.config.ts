@@ -7,7 +7,12 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/icon",
+    "@nuxtjs/i18n",
+    "@nuxt/fonts",
+  ],
   css: ["~/assets/css/main.css"],
   i18n: {
     vueI18n: "./i18n.config.ts",

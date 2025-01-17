@@ -1,40 +1,30 @@
 # Pull Request
 
 ## Description
+<!-- Brief description of your changes -->
 
-Please provide a brief description of your changes.
-
-## Type of Change
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
-- [ ] Code refactoring
-- [ ] Performance improvement
-- [ ] Style changes (formatting, styling, UI/UX improvements)
-- [ ] CI/CD changes
-- [ ] Other (please describe):
+## Type
+- [ ] feat: New feature
+- [ ] fix: Bug fix
+- [ ] docs: Documentation update
+- [ ] refactor: Code refactoring
+- [ ] style: Code style/formatting
+- [ ] perf: Performance improvement
+- [ ] ci: CI/CD changes
+- [ ] other: (please specify)
 
 ## Related Issues
-
-- Fixes #
-- Related to #
+Fixes #
+Related #
 
 ## Checklist
-
-- [ ] I have tested these changes locally
-- [ ] I have followed the project's coding style
-- [ ] I have updated the documentation
-- [ ] I have reviewed my own code
-- [ ] I have added appropriate comments to my code
-- [ ] I have updated tests if necessary
-- [ ] All tests are passing
+- [ ] Tested locally
+- [ ] Code follows style guidelines
+- [ ] Documentation updated
+- [ ] Tests passing
 
 ## Screenshots
+<!-- If applicable, add screenshots -->
 
-If applicable, add screenshots to help explain your changes.
-
-## Additional Context
-
-Add any other context about the pull request here.
+## Additional Notes
+<!-- Any extra context -->

@@ -13,6 +13,8 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxt/fonts",
     "@nuxt/image",
+    "shadcn-nuxt",
+    "@nuxtjs/color-mode",
   ],
   css: ["~/assets/css/main.css"],
   i18n: {
@@ -20,5 +22,18 @@ export default defineNuxtConfig({
   },
   image: {
     format: ["webp"],
+  },
+  shadcn: {
+    prefix: "",
+    componentDir: "./app/components/ui",
+  },
+  components: {
+    dirs: [
+      {
+        path: "@/components/inspira-ui",
+        prefix: "",
+      },
+      "~/components",
+    ],
   },
 });

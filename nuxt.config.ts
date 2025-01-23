@@ -57,9 +57,12 @@ export default defineNuxtConfig({
     ],
   },
   colorMode: {
+    preference: "dark",
     classPrefix: "",
     classSuffix: "",
-    storage: "localStorage",
+    storage: "cookie",
+    storageKey: "color-theme",
+    fallback: "dark",
   },
   icon: {
     customCollections: [

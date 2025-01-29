@@ -8,9 +8,9 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    "@nuxtjs/i18n",
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
-    "@nuxtjs/i18n",
     "@nuxt/fonts",
     "@nuxt/image",
     "shadcn-nuxt",
@@ -18,7 +18,26 @@ export default defineNuxtConfig({
   ],
   css: ["~/assets/css/main.css"],
   i18n: {
-    vueI18n: "./i18n.config.ts",
+    locales: [
+      {
+        code: "en-US",
+        iso: "en-US",
+        file: "en-US.json",
+        name: "English",
+      },
+      {
+        code: "it-IT",
+        iso: "it-IT",
+        file: "it-IT.json",
+        name: "Italian",
+      },
+    ],
+    defaultLocale: "en-US",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+    },
   },
   image: {
     format: ["webp"],

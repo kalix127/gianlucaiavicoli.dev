@@ -5,5 +5,10 @@
   "github_profile": "Profilo GitHub",
   "linkedin_profile": "Profilo LinkedIn",
   "reddit_profile": "Profilo Reddit",
-  "x_profile": "Profilo Twitter"
+  "x_profile": "Profilo Twitter",
+  "footer": {
+    "made_with": "Sviluppato con",
+    "by": "da",
+    "rights_reserved": "Tutti i diritti riservati"
+  }
 }

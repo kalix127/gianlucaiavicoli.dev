@@ -38,6 +38,7 @@ export default defineNuxtConfig({
       cookieKey: "i18n_redirected",
       redirectOn: "root",
     },
+    lazy: false,
     strategy: "no_prefix",
   },
   image: {

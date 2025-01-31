@@ -5,7 +5,27 @@
     "select": "Select language"
   },
   "theme": {
-    "toggle": "Toggle theme"
+    "toggle": "Toggle theme",
+    "customize": "Customize",
+    "color": "Color",
+    "radius": "Radius",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "pick_a_style": "Pick a style and color.",
+    "zinc": "Zinc",
+    "rose": "Rose",
+    "blue": "Blue",
+    "green": "Green",
+    "orange": "Orange",
+    "red": "Red",
+    "slate": "Slate",
+    "stone": "Stone",
+    "gray": "Gray",
+    "neutral": "Neutral",
+    "yellow": "Yellow",
+    "violet": "Violet"
   },
   "site_title": "Gianluca Iavicoli",
   "site_description": "Gianluca Iavicoli",

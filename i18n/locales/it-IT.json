@@ -1,4 +1,9 @@
 {
+  "language": {
+    "en": "Inglese",
+    "it": "Italiano",
+    "select": "Seleziona lingua"
+  },
   "site_title": "Gianluca Iavicoli",
   "site_description": "Gianluca Iavicoli",
   "github_repository": "Repository GitHub",

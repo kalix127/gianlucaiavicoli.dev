@@ -4,6 +4,9 @@
     "it": "Italiano",
     "select": "Seleziona lingua"
   },
+  "theme": {
+    "toggle": "Cambia tema"
+  },
   "site_title": "Gianluca Iavicoli",
   "site_description": "Gianluca Iavicoli",
   "github_repository": "Repository GitHub",

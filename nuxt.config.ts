@@ -57,4 +57,9 @@ export default defineNuxtConfig({
       "~/components",
     ],
   },
+  colorMode: {
+    classPrefix: "",
+    classSuffix: "",
+    storage: "localStorage",
+  },
 });

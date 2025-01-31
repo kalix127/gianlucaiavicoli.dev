@@ -3,8 +3,8 @@ const { footer } = useAppConfig();
 </script>
 
 <template>
-  <footer class="py-2 text-muted-foreground md:px-8 md:py-0">
-    <div class="flex items-center justify-between">
+  <footer class="p-2 text-sm text-muted-foreground md:px-8 md:py-0">
+    <div class="flex flex-col items-center justify-between gap-2 md:flex-row">
       <div class="flex items-center gap-2">
         {{ $t("footer.made_with") }}
         &#10084;
@@ -13,7 +13,7 @@ const { footer } = useAppConfig();
           {{ footer.credits.title }}
         </NuxtLink>
       </div>
-      <p>
+      <p class="text-center">
         &copy; {{ new Date().getFullYear() }} Gianluca Iavicoli. {{ $t("footer.rights_reserved") }}.
       </p>
     </div>

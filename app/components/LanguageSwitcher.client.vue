@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { setLocale, locale: initialLocale, t } = useI18n();
+const route = useRoute();
 
 interface Locale {
   value: "en-US" | "it-IT";
@@ -8,8 +9,16 @@ interface Locale {
 
 const currentLocale = ref(initialLocale.value);
 
-function toggleLocale(locale: Locale["value"]) {
-  setLocale(locale);
+async function handleLocaleChange(locale: Locale["value"]) {
+  await setLocale(locale);
+  // Update page title when language changes
+  const routeName = route.name as string;
+  useSeoMeta({
+    title: t(`seo.${routeName}.title`),
+    ogTitle: t(`seo.${routeName}.title`),
+    description: t(`seo.${routeName}.description`),
+    ogDescription: t(`seo.${routeName}.description`),
+  });
 }
 
 const locales: Locale[] = [
@@ -18,7 +27,7 @@ const locales: Locale[] = [
 ];
 
 watch(currentLocale, (v) => {
-  toggleLocale(v);
+  handleLocaleChange(v);
 });
 </script>
 

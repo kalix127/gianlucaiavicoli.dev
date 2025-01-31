@@ -12,10 +12,12 @@ const breakpoints = useBreakpoints(breakpointsTailwind);
       </Button>
     </PopoverTrigger>
     <PopoverContent
-      class="w-[300px] md:w-[26rem]"
       :align="breakpoints.isGreaterOrEqual('md') ? 'end' : 'center'"
+      as-child
     >
-      <ThemeCustomizer />
+      <ScrollArea class="h-[60vh] w-[300px] md:h-full md:w-[26rem]">
+        <ThemeCustomizer />
+      </ScrollArea>
     </PopoverContent>
   </Popover>
 </template>

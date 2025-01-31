@@ -1,4 +1,30 @@
 {
+  "seo": {
+    "home": {
+      "title": "Home - Gianluca Iavicoli",
+      "description": "Benvenuto nel mio portfolio - Sono uno sviluppatore web autodidatta appassionato di sviluppo web e open source."
+    },
+    "about": {
+      "title": "Chi Sono - Gianluca Iavicoli",
+      "description": "Scopri di più sul mio percorso come sviluppatore autodidatta e la mia passione per lo sviluppo web"
+    },
+    "skills": {
+      "title": "Competenze - Gianluca Iavicoli",
+      "description": "Esplora le mie competenze tecniche e l'esperienza nelle tecnologie di sviluppo web"
+    },
+    "education": {
+      "title": "Istruzione - Gianluca Iavicoli",
+      "description": "Scopri il mio background accademico e il mio impegno continuo nell'apprendimento dello sviluppo web"
+    },
+    "projects": {
+      "title": "Progetti - Gianluca Iavicoli",
+      "description": "Dai un'occhiata ai miei ultimi progetti e contribuzioni open source"
+    },
+    "contact": {
+      "title": "Contatti - Gianluca Iavicoli",
+      "description": "Mettiti in contatto con me per discutere opportunità di collaborazione o progetti di sviluppo web"
+    }
+  },
   "language": {
     "en": "Inglese",
     "it": "Italiano",
@@ -27,8 +53,6 @@
     "yellow": "Giallo",
     "violet": "Viola"
   },
-  "site_title": "Gianluca Iavicoli",
-  "site_description": "Gianluca Iavicoli",
   "home": "Home",
   "about": "Chi sono",
   "skills": "Competenze",

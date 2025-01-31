@@ -1,4 +1,30 @@
 {
+  "seo": {
+    "home": {
+      "title": "Home - Gianluca Iavicoli",
+      "description": "Welcome to my portfolio - I'm a self-taught web developer passionate about web development and open source"
+    },
+    "about": {
+      "title": "About Me - Gianluca Iavicoli",
+      "description": "Learn more about my journey as a self-taught developer and my passion for web development"
+    },
+    "skills": {
+      "title": "Skills - Gianluca Iavicoli",
+      "description": "Explore my technical skills and expertise in web development technologies"
+    },
+    "education": {
+      "title": "Education - Gianluca Iavicoli",
+      "description": "Discover my academic background and ongoing commitment to learning in computer science and web development"
+    },
+    "projects": {
+      "title": "Projects - Gianluca Iavicoli",
+      "description": "Check out my latest web development projects and open source contributions"
+    },
+    "contact": {
+      "title": "Contact - Gianluca Iavicoli",
+      "description": "Get in touch with me to discuss collaboration opportunities or web development projects"
+    }
+  },
   "language": {
     "en": "English",
     "it": "Italian",
@@ -27,8 +53,6 @@
     "yellow": "Yellow",
     "violet": "Violet"
   },
-  "site_title": "Gianluca Iavicoli",
-  "site_description": "Gianluca Iavicoli",
   "home": "Home",
   "about": "About me",
   "skills": "Skills",

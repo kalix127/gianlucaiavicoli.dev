@@ -4,12 +4,12 @@ import { breakpointsTailwind, useBreakpoints } from "@vueuse/core";
 const breakpoints = useBreakpoints(breakpointsTailwind);
 
 const links = [
-  { icon: "lucide:house", label: "home", to: "/" },
-  { icon: "lucide:user", label: "about", to: "/about" },
-  { icon: "lucide:lightbulb", label: "skills", to: "/skills" },
-  { icon: "lucide:graduation-cap", label: "education", to: "/education" },
-  { icon: "lucide:folder-git-2", label: "projects", to: "/projects" },
-  { icon: "lucide:mail", label: "contact_me", to: "/contact" },
+  { icon: "lucide:house", label: "home.label", to: "/" },
+  { icon: "lucide:user", label: "about.label", to: "/about" },
+  { icon: "lucide:lightbulb", label: "skills.label", to: "/skills" },
+  { icon: "lucide:graduation-cap", label: "education.label", to: "/education" },
+  { icon: "lucide:folder-git-2", label: "projects.label", to: "/projects" },
+  { icon: "lucide:mail", label: "contact.label", to: "/contact" },
 ];
 </script>
 

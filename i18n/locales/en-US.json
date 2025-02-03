@@ -26,6 +26,7 @@
     }
   },
   "language": {
+    "label": "Language",
     "en": "English",
     "it": "Italian",
     "select": "Select language"
@@ -53,12 +54,49 @@
     "yellow": "Yellow",
     "violet": "Violet"
   },
-  "home": "Home",
-  "about": "About me",
-  "skills": "Skills",
-  "education": "Education",
-  "projects": "Projects",
-  "contact_me": "Contact me",
+  "home": {
+    "label": "Home"
+  },
+  "about": {
+    "label": "About me",
+    "title": "👋 Hi! I'm Gianluca",
+    "subtitle": "Frontend Developer & Open Source Enthusiast",
+    "description": "I'm a self-taught and self-motivated front-end developer based in Italy with intermediate experience working on multiple projects. While I specialize in web development, I have a deep interest in cybersecurity and Linux systems. I'm a strong advocate for open source software and actively contribute to the community. I'm constantly learning and exploring new technologies to expand my skillset and create better solutions."
+  },
+  "skills": {
+    "label": "Skills"
+  },
+  "education": {
+    "label": "Education"
+  },
+  "projects": {
+    "label": "Projects"
+  },
+  "contact": {
+    "label": "Contact me"
+  },
+  "nationality": {
+    "label": "Nationality",
+    "it": "Italian"
+  },
+  "gender": {
+    "label": "Gender",
+    "male": "Male",
+    "female": "Female"
+  },
+  "hobbies": {
+    "label": "Hobbies",
+    "reading": "Reading",
+    "studying": "Studying",
+    "coding": "Coding",
+    "linux": "Fixing Linux",
+    "traveling": "Traveling",
+    "opensource": "Open source",
+    "gaming": "Playing games"
+  },
+  "github": {
+    "total_contributions": "Total contributions"
+  },
   "github_repository": "GitHub repository",
   "github_profile": "GitHub profile",
   "linkedin_profile": "LinkedIn profile",

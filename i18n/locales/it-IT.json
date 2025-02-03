@@ -26,6 +26,7 @@
     }
   },
   "language": {
+    "label": "Lingua",
     "en": "Inglese",
     "it": "Italiano",
     "select": "Seleziona lingua"
@@ -53,12 +54,49 @@
     "yellow": "Giallo",
     "violet": "Viola"
   },
-  "home": "Home",
-  "about": "Chi sono",
-  "skills": "Competenze",
-  "education": "Istruzione",
-  "projects": "Progetti",
-  "contact_me": "Contattami",
+  "home": {
+    "label": "Home"
+  },
+  "about": {
+    "label": "Chi sono",
+    "title": "👋 Ciao! Sono Gianluca",
+    "subtitle": "Sviluppatore Frontend & Appassionato Open Source",
+    "description": "Sono uno sviluppatore front-end autodidatta in Italia con esperienza intermedia in diversi progetti. Mentre mi specializzo nello sviluppo web, ho un profondo interesse per la cybersecurity e i sistemi Linux. Sono un forte sostenitore del software open source e contribuisco attivamente alla community. Sono costantemente impegnato nell'apprendimento e nell'esplorazione di nuove tecnologie per ampliare le mie competenze e creare soluzioni migliori."
+  },
+  "skills": {
+    "label": "Competenze"
+  },
+  "education": {
+    "label": "Istruzione"
+  },
+  "projects": {
+    "label": "Progetti"
+  },
+  "contact": {
+    "label": "Contatti"
+  },
+  "nationality": {
+    "label": "Nazionalità",
+    "it": "Italiano"
+  },
+  "gender": {
+    "label": "Genere",
+    "male": "Maschio",
+    "female": "Femmina"
+  },
+  "hobbies": {
+    "label": "Hobby",
+    "reading": "Leggere",
+    "studying": "Studiare",
+    "coding": "Programmare",
+    "linux": "Fixare Linux",
+    "traveling": "Viaggiare",
+    "opensource": "Open source",
+    "gaming": "Giocare a videogiochi"
+  },
+  "github": {
+    "total_contributions": "Contribuzioni totali"
+  },
   "github_repository": "Repository GitHub",
   "github_profile": "Profilo GitHub",
   "linkedin_profile": "Profilo LinkedIn",

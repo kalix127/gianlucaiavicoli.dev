@@ -100,7 +100,7 @@ onMounted(() => {
         {{ $t("about.description") }}
       </p>
       <!-- Factos -->
-      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 md:grid-cols-4">
+      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 md:grid-cols-4 md:place-items-start">
         <div v-for="item in items" :key="item.title" class="flex flex-col gap-4">
           <div class="flex items-center gap-2">
             <Icon :name="item.icon" size="30" />
@@ -108,7 +108,7 @@ onMounted(() => {
               {{ item.title }}
             </h2>
           </div>
-          <div class="flex justify-center gap-2">
+          <div class="flex justify-center gap-2 md:justify-start">
             <Badge variant="outline">
               {{ item.value }}
             </Badge>

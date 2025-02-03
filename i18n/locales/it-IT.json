@@ -1,0 +1,110 @@
+{
+  "seo": {
+    "home": {
+      "title": "Home - Gianluca Iavicoli",
+      "description": "Benvenuto nel mio portfolio - Sono uno sviluppatore web autodidatta appassionato di sviluppo web e open source."
+    },
+    "about": {
+      "title": "Chi Sono - Gianluca Iavicoli",
+      "description": "Scopri di più sul mio percorso come sviluppatore autodidatta e la mia passione per lo sviluppo web"
+    },
+    "skills": {
+      "title": "Competenze - Gianluca Iavicoli",
+      "description": "Esplora le mie competenze tecniche e l'esperienza nelle tecnologie di sviluppo web"
+    },
+    "education": {
+      "title": "Istruzione - Gianluca Iavicoli",
+      "description": "Scopri il mio background accademico e il mio impegno continuo nell'apprendimento dello sviluppo web"
+    },
+    "projects": {
+      "title": "Progetti - Gianluca Iavicoli",
+      "description": "Dai un'occhiata ai miei ultimi progetti e contribuzioni open source"
+    },
+    "contact": {
+      "title": "Contatti - Gianluca Iavicoli",
+      "description": "Mettiti in contatto con me per discutere opportunità di collaborazione o progetti di sviluppo web"
+    }
+  },
+  "language": {
+    "label": "Lingua",
+    "en": "Inglese",
+    "it": "Italiano",
+    "select": "Seleziona lingua"
+  },
+  "theme": {
+    "toggle": "Cambia tema",
+    "customize": "Personalizza",
+    "color": "Colore",
+    "radius": "Raggio",
+    "theme": "Tema",
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema",
+    "pick_a_style": "Scegli uno stile e un colore.",
+    "zinc": "Zinc",
+    "rose": "Rosa",
+    "blue": "Blu",
+    "green": "Verde",
+    "orange": "Arancione",
+    "red": "Rosso",
+    "slate": "Ardesia",
+    "stone": "Pietra",
+    "gray": "Grigio",
+    "neutral": "Neutro",
+    "yellow": "Giallo",
+    "violet": "Viola"
+  },
+  "home": {
+    "label": "Home"
+  },
+  "about": {
+    "label": "Chi sono",
+    "title": "👋 Ciao! Sono Gianluca",
+    "subtitle": "Sviluppatore Frontend & Appassionato Open Source",
+    "description": "Sono uno sviluppatore front-end autodidatta in Italia con esperienza intermedia in diversi progetti. Mentre mi specializzo nello sviluppo web, ho un profondo interesse per la cybersecurity e i sistemi Linux. Sono un forte sostenitore del software open source e contribuisco attivamente alla community. Sono costantemente impegnato nell'apprendimento e nell'esplorazione di nuove tecnologie per ampliare le mie competenze e creare soluzioni migliori."
+  },
+  "skills": {
+    "label": "Competenze"
+  },
+  "education": {
+    "label": "Istruzione"
+  },
+  "projects": {
+    "label": "Progetti"
+  },
+  "contact": {
+    "label": "Contatti"
+  },
+  "nationality": {
+    "label": "Nazionalità",
+    "it": "Italiano"
+  },
+  "gender": {
+    "label": "Genere",
+    "male": "Maschio",
+    "female": "Femmina"
+  },
+  "hobbies": {
+    "label": "Hobby",
+    "reading": "Leggere",
+    "studying": "Studiare",
+    "coding": "Programmare",
+    "linux": "Fixare Linux",
+    "traveling": "Viaggiare",
+    "opensource": "Open source",
+    "gaming": "Giocare a videogiochi"
+  },
+  "github": {
+    "total_contributions": "Contribuzioni totali"
+  },
+  "github_repository": "Repository GitHub",
+  "github_profile": "Profilo GitHub",
+  "linkedin_profile": "Profilo LinkedIn",
+  "reddit_profile": "Profilo Reddit",
+  "x_profile": "Profilo Twitter",
+  "footer": {
+    "made_with": "Sviluppato con",
+    "by": "da",
+    "rights_reserved": "Tutti i diritti riservati"
+  }
+}

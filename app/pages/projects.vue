@@ -2,16 +2,16 @@
 const { t } = useI18n();
 
 useSeoMeta({
-  title: t("seo.home.title"),
-  ogTitle: t("seo.home.title"),
-  description: t("seo.home.description"),
-  ogDescription: t("seo.home.description"),
+  title: t("seo.projects.title"),
+  ogTitle: t("seo.projects.title"),
+  description: t("seo.projects.description"),
+  ogDescription: t("seo.projects.description"),
 });
 </script>
 
 <template>
   <div class="grid h-full place-items-center">
-    Home
+    Projects
   </div>
 </template>
 

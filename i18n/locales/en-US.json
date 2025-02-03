@@ -1,0 +1,110 @@
+{
+  "seo": {
+    "home": {
+      "title": "Home - Gianluca Iavicoli",
+      "description": "Welcome to my portfolio - I'm a self-taught web developer passionate about web development and open source"
+    },
+    "about": {
+      "title": "About Me - Gianluca Iavicoli",
+      "description": "Learn more about my journey as a self-taught developer and my passion for web development"
+    },
+    "skills": {
+      "title": "Skills - Gianluca Iavicoli",
+      "description": "Explore my technical skills and expertise in web development technologies"
+    },
+    "education": {
+      "title": "Education - Gianluca Iavicoli",
+      "description": "Discover my academic background and ongoing commitment to learning in computer science and web development"
+    },
+    "projects": {
+      "title": "Projects - Gianluca Iavicoli",
+      "description": "Check out my latest web development projects and open source contributions"
+    },
+    "contact": {
+      "title": "Contact - Gianluca Iavicoli",
+      "description": "Get in touch with me to discuss collaboration opportunities or web development projects"
+    }
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "it": "Italian",
+    "select": "Select language"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "customize": "Customize",
+    "color": "Color",
+    "radius": "Radius",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "pick_a_style": "Pick a style and color.",
+    "zinc": "Zinc",
+    "rose": "Rose",
+    "blue": "Blue",
+    "green": "Green",
+    "orange": "Orange",
+    "red": "Red",
+    "slate": "Slate",
+    "stone": "Stone",
+    "gray": "Gray",
+    "neutral": "Neutral",
+    "yellow": "Yellow",
+    "violet": "Violet"
+  },
+  "home": {
+    "label": "Home"
+  },
+  "about": {
+    "label": "About me",
+    "title": "👋 Hi! I'm Gianluca",
+    "subtitle": "Frontend Developer & Open Source Enthusiast",
+    "description": "I'm a self-taught and self-motivated front-end developer based in Italy with intermediate experience working on multiple projects. While I specialize in web development, I have a deep interest in cybersecurity and Linux systems. I'm a strong advocate for open source software and actively contribute to the community. I'm constantly learning and exploring new technologies to expand my skillset and create better solutions."
+  },
+  "skills": {
+    "label": "Skills"
+  },
+  "education": {
+    "label": "Education"
+  },
+  "projects": {
+    "label": "Projects"
+  },
+  "contact": {
+    "label": "Contact me"
+  },
+  "nationality": {
+    "label": "Nationality",
+    "it": "Italian"
+  },
+  "gender": {
+    "label": "Gender",
+    "male": "Male",
+    "female": "Female"
+  },
+  "hobbies": {
+    "label": "Hobbies",
+    "reading": "Reading",
+    "studying": "Studying",
+    "coding": "Coding",
+    "linux": "Fixing Linux",
+    "traveling": "Traveling",
+    "opensource": "Open source",
+    "gaming": "Playing games"
+  },
+  "github": {
+    "total_contributions": "Total contributions"
+  },
+  "github_repository": "GitHub repository",
+  "github_profile": "GitHub profile",
+  "linkedin_profile": "LinkedIn profile",
+  "reddit_profile": "Reddit profile",
+  "x_profile": "Twitter profile",
+  "footer": {
+    "made_with": "Made with",
+    "by": "by",
+    "rights_reserved": "All rights reserved"
+  }
+}

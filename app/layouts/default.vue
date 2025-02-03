@@ -4,11 +4,10 @@
 <template>
   <div class="wrapper">
     <LayoutHeader />
-    <main>
-      <Background>
-        <slot />
-      </Background>
+    <main class="m-4 sm:mx-8 md:mx-12 lg:mx-28">
+      <slot />
     </main>
+    <Background />
     <LayoutFooter />
   </div>
 </template>

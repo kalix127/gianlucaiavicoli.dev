@@ -88,19 +88,19 @@ onMounted(() => {
   <div class="grid h-full place-items-center space-y-8">
     <div class="space-y-8">
       <!-- Title -->
-      <h1 class="md:text-4xl text-xl font-bold">
+      <h1 class="text-xl font-bold md:text-4xl">
         {{ $t("about.title") }}
       </h1>
       <!-- Subtitle -->
-      <h2 class="md:text-2xl !mt-4 text-lg font-bold">
+      <h2 class="!mt-4 text-lg font-bold md:text-2xl">
         {{ $t("about.subtitle") }}
       </h2>
       <!-- Description -->
-      <p class="md:text-lg !mt-2 text-muted-foreground">
+      <p class="!mt-2 text-muted-foreground md:text-lg">
         {{ $t("about.description") }}
       </p>
       <!-- Factos -->
-      <div class="md:grid-cols-4 grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2">
+      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 md:grid-cols-4">
         <div v-for="item in items" :key="item.title" class="flex flex-col gap-4">
           <div class="flex items-center gap-2">
             <Icon :name="item.icon" size="30" />

@@ -88,19 +88,19 @@ onMounted(() => {
   <div class="grid h-full place-items-center space-y-8">
     <div class="space-y-8">
       <!-- Title -->
-      <h1 class="text-xl font-bold md:text-4xl">
+      <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl">
         {{ $t("about.title") }}
       </h1>
       <!-- Subtitle -->
-      <h2 class="!mt-4 text-lg font-bold md:text-2xl">
+      <h2 class="!mt-4 text-lg font-bold sm:text-xl md:text-2xl">
         {{ $t("about.subtitle") }}
       </h2>
       <!-- Description -->
-      <p class="!mt-2 text-muted-foreground md:text-lg">
+      <p class="!mt-2 text-muted-foreground">
         {{ $t("about.description") }}
       </p>
       <!-- Factos -->
-      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 md:grid-cols-4">
+      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 xs:place-items-start md:grid-cols-4">
         <div v-for="item in items" :key="item.title" class="flex flex-col gap-4">
           <div class="flex items-center gap-2">
             <Icon :name="item.icon" size="30" />
@@ -108,8 +108,8 @@ onMounted(() => {
               {{ item.title }}
             </h2>
           </div>
-          <div class="flex justify-center gap-2">
-            <Badge variant="outline">
+          <div class="flex justify-center gap-2 xs:justify-start">
+            <Badge variant="outline" class="md:text-sm">
               {{ item.value }}
             </Badge>
           </div>
@@ -125,7 +125,7 @@ onMounted(() => {
         </div>
         <div class="flex flex-wrap gap-2">
           <div v-for="hobby in hobbies" :key="hobby.label" class="flex justify-center gap-2">
-            <Badge variant="outline">
+            <Badge variant="outline" class="md:text-sm">
               {{ hobby.label }}
             </Badge>
           </div>

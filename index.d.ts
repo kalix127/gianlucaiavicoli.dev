@@ -16,6 +16,23 @@ declare module "nuxt/schema" {
       icon: string;
       target?: string;
     }>;
+    skills: {
+      languages: Array<{
+        name: string;
+        icon: string;
+        url: string;
+      }>;
+      frameworks: Array<{
+        name: string;
+        icon: string;
+        url: string;
+      }>;
+      tools: Array<{
+        name: string;
+        icon: string;
+        url: string;
+      }>;
+    };
     footer: {
       credits: {
         title: string;

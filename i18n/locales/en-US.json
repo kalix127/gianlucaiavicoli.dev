@@ -64,7 +64,12 @@
     "description": "I'm a self-taught and self-motivated front-end developer based in Italy with intermediate experience working on multiple projects. While I specialize in web development, I have a deep interest in cybersecurity and Linux systems. I'm a strong advocate for open source software and actively contribute to the community. I'm constantly learning and exploring new technologies to expand my skillset and create better solutions."
   },
   "skills": {
-    "label": "Skills"
+    "label": "Skills",
+    "title": "My Technical Skills.",
+    "description": "I have a strong foundation in modern web development technologies like Vue, Nuxt, TypeScript, and Tailwind CSS. While I primarily focus on frontend development, most of my projects past have required full-stack knowledge, leading me to work extensively with backend technologies and DevOps tools.",
+    "programming_languages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "tools": "Tools & Technologies"
   },
   "education": {
     "label": "Education"

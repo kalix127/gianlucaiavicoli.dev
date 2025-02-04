@@ -64,7 +64,12 @@
     "description": "Sono uno sviluppatore front-end autodidatta in Italia con esperienza intermedia in diversi progetti. Mentre mi specializzo nello sviluppo web, ho un profondo interesse per la cybersecurity e i sistemi Linux. Sono un forte sostenitore del software open source e contribuisco attivamente alla community. Sono costantemente impegnato nell'apprendimento e nell'esplorazione di nuove tecnologie per ampliare le mie competenze e creare soluzioni migliori."
   },
   "skills": {
-    "label": "Competenze"
+    "label": "Competenze",
+    "title": "Le mie Competenze Tecniche.",
+    "description": "Ho una solida base nelle tecnologie di sviluppo web moderne come Vue, Nuxt, TypeScript e Tailwind CSS. Mentre mi concentro principalmente sullo sviluppo frontend, la maggior parte dei miei progetti passati hanno richiesto conoscenze full-stack, portandomi a lavorare ampiamente con tecnologie backend e strumenti DevOps.",
+    "programming_languages": "Linguaggi di Programmazione",
+    "frameworks": "Framework e Librerie",
+    "tools": "Tools e Tecnologie"
   },
   "education": {
     "label": "Istruzione"

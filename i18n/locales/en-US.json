@@ -72,7 +72,28 @@
     "tools": "Tools & Technologies"
   },
   "education": {
-    "label": "Education"
+    "label": "Education & Experience",
+    "title": "My Education & Experience",
+    "steps": {
+      "diploma": {
+        "title": "Diploma in Computer Science and Telecommunications",
+        "start": "2018",
+        "end": "2023",
+        "description": "Completed my high school education at Istituto Mecenate, a private school in Italy. During my time there, I developed a strong foundation in computer science fundamentals, programming concepts, and web development technologies."
+      },
+      "freelancing": {
+        "title": "Freelance Web Developer",
+        "start": "2023",
+        "end": "2024",
+        "description": "Worked as a freelance web developer on various client projects, building responsive and modern web applications including dashboards. Specialized in creating custom solutions using Vue.js, Nuxt.js, and Tailwind CSS. Successfully managed multiple projects simultaneously while implementing best practices for accessibility and SEO optimization, handling everything from client communication to deployment."
+      },
+      "opensource": {
+        "title": "Full-time Open Source Contributor",
+        "start": "2025",
+        "end": "Present",
+        "description": "I'm currently contributing full-time to open source projects in the Vue.js ecosystem, with a focus on component libraries like vue-shadcn/ui and Inspira UI. Building new features, writing documentation, and helping the community through discussions and code reviews while improving developer experience and accessibility of open source tools."
+      }
+    }
   },
   "projects": {
     "label": "Projects"

@@ -31,7 +31,7 @@ export default antfu({
     "yaml/plain-scalar": "off",
 
     "tailwind/classnames-order": ["warn"],
-    "tailwind/enforces-negative-arbitrary-values": ["warn"],
+    "tailwind/enforces-negative-arbitrary-values": ["off"],
     "tailwind/enforces-shorthand": ["error"],
     "tailwind/no-contradicting-classname": ["error"],
     "tailwind/no-unnecessary-arbitrary-value": ["error"],

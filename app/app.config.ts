@@ -9,32 +9,14 @@ export default defineAppConfig({
     color: "zinc",
     radius: 0.5,
   },
-  socials: [
-    {
-      title: "github_profile",
-      icon: "mdi:github",
-      to: "https://github.com/kalix127",
-      target: "_blank",
-    },
-    {
-      title: "linkedin_profile",
-      icon: "mdi:linkedin",
-      to: "https://linkedin.com/in/gianluca-iavicoli-684b32262",
-      target: "_blank",
-    },
-    {
-      title: "reddit_profile",
-      icon: "mdi:reddit",
-      to: "https://reddit.com/user/kalix127",
-      target: "_blank",
-    },
-    {
-      title: "x_profile",
-      icon: "mdi:twitter",
-      to: "https://x.com/kalix127",
-      target: "_blank",
-    },
-  ],
+  socials: {
+    email: "mailto:info@gianlucaiavicoli.dev",
+    github: "https://github.com/kalix127",
+    repository: "https://github.com/kalix127/Portfolio",
+    linkedin: "https://linkedin.com/in/gianluca-iavicoli-684b32262",
+    reddit: "https://reddit.com/user/kalix127",
+    x: "https://x.com/kalix127",
+  },
   skills: {
     languages: [
       {

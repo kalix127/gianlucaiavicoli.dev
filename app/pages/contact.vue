@@ -39,7 +39,7 @@ const items = computed(() => [
 </script>
 
 <template>
-  <div class="mx-auto grid max-w-sm place-content-center space-y-8">
+  <div class="mx-auto grid max-w-sm place-content-center space-y-8 py-4">
     <div class="space-y-8">
       <!-- Title -->
       <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl">

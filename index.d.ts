@@ -10,12 +10,14 @@ declare module "nuxt/schema" {
       color: string;
       radius: number;
     };
-    socials: Array<{
-      title: string;
-      to: string;
-      icon: string;
-      target?: string;
-    }>;
+    socials: {
+      email: string;
+      github: string;
+      repository: string;
+      linkedin: string;
+      reddit: string;
+      x: string;
+    };
     skills: {
       languages: Array<{
         name: string;

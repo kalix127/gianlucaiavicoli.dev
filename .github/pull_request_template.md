@@ -21,7 +21,6 @@ Related #
 - [ ] Tested locally
 - [ ] Code follows style guidelines
 - [ ] Documentation updated
-- [ ] Tests passing
 
 ## Screenshots
 <!-- If applicable, add screenshots -->

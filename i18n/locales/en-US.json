@@ -99,7 +99,9 @@
     "label": "Projects"
   },
   "contact": {
-    "label": "Contact me"
+    "label": "Contact me",
+    "title": "Contact me!",
+    "description": "The best way to reach me is via email. However, you can also find me and connect on various social media platforms listed below."
   },
   "nationality": {
     "label": "Nationality",
@@ -123,11 +125,18 @@
   "github": {
     "total_contributions": "Total contributions"
   },
-  "github_repository": "GitHub repository",
-  "github_profile": "GitHub profile",
-  "linkedin_profile": "LinkedIn profile",
-  "reddit_profile": "Reddit profile",
-  "x_profile": "Twitter profile",
+  "socials": {
+    "contact_email": "Shoot me an email",
+    "contact_github": "Check out my GitHub profile",
+    "contact_linkedin": "Connect with me on LinkedIn",
+    "contact_x": "Message me on X",
+    "contact_reddit": "Drop me a line on Reddit",
+    "repository_github": "GitHub repository",
+    "profile_github": "GitHub profile",
+    "profile_linkedin": "LinkedIn profile",
+    "profile_reddit": "Reddit profile",
+    "profile_x": "Twitter profile"
+  },
   "footer": {
     "made_with": "Made with",
     "by": "by",

@@ -99,7 +99,9 @@
     "label": "Progetti"
   },
   "contact": {
-    "label": "Contatti"
+    "label": "Contattami",
+    "title": "Contattami!",
+    "description": "Il modo migliore per raggiungermi è via email. Tuttavia, puoi anche trovarmi e connetterti sulle varie piattaforme social elencate qui sotto."
   },
   "nationality": {
     "label": "Nazionalità",
@@ -123,11 +125,18 @@
   "github": {
     "total_contributions": "Contribuzioni totali"
   },
-  "github_repository": "Repository GitHub",
-  "github_profile": "Profilo GitHub",
-  "linkedin_profile": "Profilo LinkedIn",
-  "reddit_profile": "Profilo Reddit",
-  "x_profile": "Profilo Twitter",
+  "socials": {
+    "contact_email": "Mandami una email",
+    "contact_github": "Dai un'occhiata al mio profilo GitHub",
+    "contact_linkedin": "Connettiti con me su LinkedIn",
+    "contact_x": "Mandami un messaggio su X",
+    "contact_reddit": "Scrivimi su Reddit",
+    "repository_github": "Repository GitHub",
+    "profile_github": "Profilo GitHub",
+    "profile_linkedin": "Profilo LinkedIn",
+    "profile_reddit": "Profilo Reddit",
+    "profile_x": "Profilo Twitter"
+  },
   "footer": {
     "made_with": "Sviluppato con",
     "by": "da",

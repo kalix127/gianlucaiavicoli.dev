@@ -34,7 +34,7 @@ watch(currentLocale, (v) => {
 <template>
   <Select v-model="currentLocale">
     <SelectTrigger as-child>
-      <div class="grid place-items-center">
+      <div data-allow-mismatch="class" class="grid place-content-center">
         <Button variant="ghost" size="icon">
           <Icon name="material-symbols:translate" size="18" />
           <span class="sr-only">{{ t("language.select") }}</span>

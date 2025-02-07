@@ -57,8 +57,25 @@ export default defineNuxtConfig({
     ],
   },
   colorMode: {
+    preference: "dark",
     classPrefix: "",
     classSuffix: "",
-    storage: "localStorage",
+    storage: "cookie",
+    storageKey: "color-theme",
+    fallback: "dark",
+  },
+  icon: {
+    customCollections: [
+      {
+        dir: "./app/icons/logo",
+        prefix: "logo",
+      },
+    ],
+    serverBundle: "local",
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true,
+      sizeLimitKb: 256,
+    },
   },
 });

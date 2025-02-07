@@ -125,6 +125,67 @@ export default defineAppConfig({
       },
     ],
   },
+  projects: {
+    personal: [
+      {
+        title: "KalixOS",
+        description: "projects.descriptions.kalixos",
+        sourceUrl: "https://github.com/kalix127/kalixos",
+        websiteUrl: "https://os.gianlucaiavicoli.dev",
+        previewUrl: "/img/projects/kalixos.gif",
+        icons: {
+          light: "manjaro",
+          dark: "manjaro",
+        },
+      },
+      {
+        title: "Tailwind Battles",
+        description: "projects.descriptions.tailwind_battle",
+        sourceUrl: "https://github.com/kalix127/tailwind-battle-solutions",
+        websiteUrl: "https://www.tailwindbattle.com/",
+        previewUrl: "/img/projects/tailwind-battles.webp",
+        icons: {
+          light: "tailwind-battles",
+          dark: "tailwind-battles",
+        },
+      },
+    ],
+    contributions: [
+      {
+        github: "unovue/inspira-ui",
+        title: "Inspira UI",
+        description: "projects.descriptions.inspira_ui",
+        sourceUrl: "https://github.com/unovue/inspira-ui",
+        websiteUrl: "https://inspira-ui.com/",
+        icons: {
+          light: "inspira-light",
+          dark: "inspira-dark",
+        },
+      },
+      {
+        github: "unovue/shadcn-vue",
+        title: "Shadcn-Vue",
+        description: "projects.descriptions.shadcn_vue",
+        sourceUrl: "https://github.com/unovue/shadcn-vue",
+        websiteUrl: "https://www.shadcn-vue.com/",
+        icons: {
+          light: "shadcn-vue",
+          dark: "shadcn-vue",
+        },
+      },
+      {
+        github: "ZTL-UwU/shadcn-docs-nuxt",
+        title: "Shadcn Docs",
+        description: "projects.descriptions.shadcn_docs",
+        sourceUrl: "https://github.com/ZTL-UwU/shadcn-docs-nuxt",
+        websiteUrl: "https://shadcn-docs-nuxt.vercel.app/",
+        icons: {
+          light: "shadcn-docs-light",
+          dark: "shadcn-docs-dark",
+        },
+      },
+    ],
+  },
   footer: {
     credits: {
       title: "kalix127",

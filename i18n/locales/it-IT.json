@@ -96,7 +96,21 @@
     }
   },
   "projects": {
-    "label": "Progetti"
+    "label": "Progetti",
+    "description": "Ecco alcuni dei progetti a cui ho lavorato nel tempo libero. Il mio contributo preferito e più significativo è Inspira UI, dove sono il principale collaboratore.",
+    "visit_project": "Visita Progetto",
+    "source_code": "Visualizza Codice Sorgente",
+    "show_preview": "Mostra Anteprima",
+    "personal_title": "Progetti Personali",
+    "contributions_title": "Contribuzioni Open Source",
+    "descriptions": {
+      "kalixos": "Un ambiente desktop Linux basato su browser ispirato a Manjaro, che include un filesystem completo, un browser web e un terminale interattivo con supporto per comandi Linux.",
+      "tailwind_battle": "Ho completato quasi tutte le sfide e attualmente sono al secondo posto nella classifica. Ogni soluzione dimostra implementazioni CSS pratiche utilizzando Tailwind, contribuendo all'obiettivo della piattaforma di migliorare le competenze attraverso la pratica.",
+      "inspira_ui": "Una collezione curata di componenti Vue riutilizzabili costruiti con shadcn-vue e motion-v. Ispirata da Aceternity UI e Magic UI, offre componenti altamente configurabili che possono essere facilmente integrati in qualsiasi applicazione Vue/Nuxt.",
+      "shadcn_vue": "Una versione portata su Vue di shadcn/ui guidata dalla community che fornisce componenti dall'aspetto accattivante e accessibili, realizzati con Radix Vue e Tailwind CSS. I componenti possono essere copiati direttamente nel tuo progetto tramite CLI, dandoti pieno controllo per personalizzare e mantenere il codice come tuo.",
+      "shadcn_docs": "Un template per la creazione di documentazioni in Nuxt gratuito e open source, realizzato con Nuxt Content e shadcn-vue. Presenta componenti personalizzabili, supporto mobile, ricerca indicizzata e compatibilità parziale con Docus, Nuxt UI Pro Docs e undocs."
+    },
+    "preview_of": "Anteprima di"
   },
   "contact": {
     "label": "Contattami",

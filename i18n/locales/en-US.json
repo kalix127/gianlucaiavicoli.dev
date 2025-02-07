@@ -91,12 +91,26 @@
         "title": "Full-time Open Source Contributor",
         "start": "2025",
         "end": "Present",
-        "description": "I'm currently contributing full-time to open source projects in the Vue.js ecosystem, with a focus on component libraries like vue-shadcn/ui and Inspira UI. Building new features, writing documentation, and helping the community through discussions and code reviews while improving developer experience and accessibility of open source tools."
+        "description": "I'm currently contributing full-time to open source projects in the Vue.js ecosystem, with a focus on component libraries like shadcn-vue and Inspira UI. Building new features, writing documentation, and helping the community through discussions and code reviews while improving developer experience and accessibility of open source tools."
       }
     }
   },
   "projects": {
-    "label": "Projects"
+    "label": "Projects",
+    "description": "Here are some of the projects I've worked on in my free time. My favorite and most significant contribution is Inspira UI, where I'm the top contributor.",
+    "visit_project": "Visit Project",
+    "source_code": "View Source Code",
+    "show_preview": "Show Preview",
+    "personal_title": "Personal Projects",
+    "contributions_title": "Open Source Contributions",
+    "descriptions": {
+      "kalixos": "A browser-based Linux desktop environment inspired by Manjaro, featuring a complete filesystem, web browser, and interactive terminal with Linux command support.",
+      "tailwind_battle": "I've completed almost every challenge and currently rank 2nd on the leaderboard. Each solution demonstrates practical CSS implementations using Tailwind, contributing to the platform's goal of skill improvement through practice.",
+      "inspira_ui": "A curated collection of beautifully designed, reusable Vue components built with shadcn-vue and motion-v. Inspired by Aceternity UI and Magic UI, it offers highly configurable components that can be easily integrated into any Vue/Nuxt application.",
+      "shadcn_vue": "A community-led Vue port of shadcn/ui that provides beautifully designed, accessible components built with Radix Vue and Tailwind CSS. Components can be copied directly into your project via CLI, giving you full control to customize and maintain the code as your own.",
+      "shadcn_docs": "A free and open source Nuxt documentation template built with Nuxt Content and shadcn-vue. Features rich customizable components, mobile support, indexed searching, and partial compatibility with Docus, Nuxt UI Pro Docs, and undocs."
+    },
+    "preview_of": "Preview of"
   },
   "contact": {
     "label": "Contact me",

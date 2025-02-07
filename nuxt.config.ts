@@ -61,4 +61,18 @@ export default defineNuxtConfig({
     classSuffix: "",
     storage: "localStorage",
   },
+  icon: {
+    customCollections: [
+      {
+        dir: "./app/icons/logo",
+        prefix: "logo",
+      },
+    ],
+    serverBundle: "local",
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true,
+      sizeLimitKb: 256,
+    },
+  },
 });

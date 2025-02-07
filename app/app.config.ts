@@ -137,6 +137,16 @@ export default defineAppConfig({
           dark: "manjaro",
         },
       },
+      {
+        title: "Tailwind Battles",
+        description: "projects.descriptions.tailwind_battle",
+        link: "https://github.com/kalix127/tailwind-battle-solutions",
+        previewUrl: "/img/projects/tailwind-battles.webp",
+        icons: {
+          light: "tailwind-battles",
+          dark: "tailwind-battles",
+        },
+      },
     ],
     contributions: [
       {

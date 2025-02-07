@@ -8,7 +8,6 @@ const props = withDefaults(defineProps<{
   distance?: number;
   direction?: string;
 }>(), {
-  class: "",
   magnification: 60,
   distance: 140,
   direction: "middle",

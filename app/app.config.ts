@@ -125,6 +125,52 @@ export default defineAppConfig({
       },
     ],
   },
+  projects: {
+    personal: [
+      {
+        title: "KalixOS",
+        description: "projects.descriptions.kalixos",
+        link: "https://github.com/kalix127/kalixos",
+        previewUrl: "/img/projects/preview.gif",
+        icons: {
+          light: "manjaro",
+          dark: "manjaro",
+        },
+      },
+    ],
+    contributions: [
+      {
+        github: "unovue/inspira-ui",
+        title: "Inspira UI",
+        description: "projects.descriptions.inspira_ui",
+        link: "https://github.com/unovue/inspira-ui",
+        icons: {
+          light: "inspira-light",
+          dark: "inspira-dark",
+        },
+      },
+      {
+        github: "unovue/shadcn-vue",
+        title: "Shadcn-Vue",
+        description: "projects.descriptions.shadcn_vue",
+        link: "https://github.com/unovue/shadcn-vue",
+        icons: {
+          light: "shadcn-vue",
+          dark: "shadcn-vue",
+        },
+      },
+      {
+        github: "ZTL-UwU/shadcn-docs-nuxt",
+        title: "Shadcn Docs",
+        description: "projects.descriptions.shadcn_docs",
+        link: "https://github.com/ZTL-UwU/shadcn-docs-nuxt",
+        icons: {
+          light: "shadcn-docs-light",
+          dark: "shadcn-docs-dark",
+        },
+      },
+    ],
+  },
   footer: {
     credits: {
       title: "kalix127",

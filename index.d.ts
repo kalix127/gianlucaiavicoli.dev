@@ -52,7 +52,8 @@ export interface Project {
   github?: string; // <github-username>/<github-repo>
   title: string;
   description: string;
-  link: string;
+  sourceUrl?: string;
+  websiteUrl?: string;
   previewUrl?: string;
   icons?: {
     light?: string;

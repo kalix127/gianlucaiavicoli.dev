@@ -130,7 +130,8 @@ export default defineAppConfig({
       {
         title: "KalixOS",
         description: "projects.descriptions.kalixos",
-        link: "https://github.com/kalix127/kalixos",
+        sourceUrl: "https://github.com/kalix127/kalixos",
+        websiteUrl: "https://os.gianlucaiavicoli.dev",
         previewUrl: "/img/projects/kalixos.gif",
         icons: {
           light: "manjaro",
@@ -140,7 +141,8 @@ export default defineAppConfig({
       {
         title: "Tailwind Battles",
         description: "projects.descriptions.tailwind_battle",
-        link: "https://github.com/kalix127/tailwind-battle-solutions",
+        sourceUrl: "https://github.com/kalix127/tailwind-battle-solutions",
+        websiteUrl: "https://www.tailwindbattle.com/",
         previewUrl: "/img/projects/tailwind-battles.webp",
         icons: {
           light: "tailwind-battles",
@@ -153,7 +155,8 @@ export default defineAppConfig({
         github: "unovue/inspira-ui",
         title: "Inspira UI",
         description: "projects.descriptions.inspira_ui",
-        link: "https://github.com/unovue/inspira-ui",
+        sourceUrl: "https://github.com/unovue/inspira-ui",
+        websiteUrl: "https://inspira-ui.com/",
         icons: {
           light: "inspira-light",
           dark: "inspira-dark",
@@ -163,7 +166,8 @@ export default defineAppConfig({
         github: "unovue/shadcn-vue",
         title: "Shadcn-Vue",
         description: "projects.descriptions.shadcn_vue",
-        link: "https://github.com/unovue/shadcn-vue",
+        sourceUrl: "https://github.com/unovue/shadcn-vue",
+        websiteUrl: "https://www.shadcn-vue.com/",
         icons: {
           light: "shadcn-vue",
           dark: "shadcn-vue",
@@ -173,7 +177,8 @@ export default defineAppConfig({
         github: "ZTL-UwU/shadcn-docs-nuxt",
         title: "Shadcn Docs",
         description: "projects.descriptions.shadcn_docs",
-        link: "https://github.com/ZTL-UwU/shadcn-docs-nuxt",
+        sourceUrl: "https://github.com/ZTL-UwU/shadcn-docs-nuxt",
+        websiteUrl: "https://shadcn-docs-nuxt.vercel.app/",
         icons: {
           light: "shadcn-docs-light",
           dark: "shadcn-docs-dark",

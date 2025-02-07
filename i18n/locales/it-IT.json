@@ -98,7 +98,9 @@
   "projects": {
     "label": "Progetti",
     "description": "Ecco alcuni dei progetti a cui ho lavorato nel tempo libero. Il mio contributo preferito e più significativo è Inspira UI, dove sono il principale collaboratore.",
-    "visit": "Visita Progetto",
+    "visit_project": "Visita Progetto",
+    "source_code": "Visualizza Codice Sorgente",
+    "show_preview": "Mostra Anteprima",
     "personal_title": "Progetti Personali",
     "contributions_title": "Contribuzioni Open Source",
     "descriptions": {

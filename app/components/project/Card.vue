@@ -8,6 +8,7 @@ const props = defineProps<{
 }>();
 
 const isPreviewOpen = ref(false);
+const { t } = useI18n();
 
 const projectIcon = computed(() => {
   const isDark = useColorMode().preference === "dark";
@@ -17,6 +18,26 @@ const projectIcon = computed(() => {
 function togglePreview() {
   isPreviewOpen.value = !isPreviewOpen.value;
 }
+
+const actions = [
+  {
+    label: t("projects.visit_project"),
+    icon: "mingcute:external-link-line",
+    link: props.project.websiteUrl,
+    external: true,
+  },
+  {
+    label: t("projects.source_code"),
+    icon: "mdi:source-branch",
+    link: props.project.sourceUrl,
+    external: true,
+  },
+  {
+    label: t("projects.show_preview"),
+    icon: "material-symbols:play-circle-outline-rounded",
+    link: props.project.previewUrl,
+  },
+];
 
 const { data: stars } = await useFetch<number>(
   `https://api.github.com/repos/${props.project.github}`,
@@ -28,6 +49,8 @@ const { data: stars } = await useFetch<number>(
     transform: (data: any) => data.stargazers_count as number,
   },
 );
+
+provide("project", props.project);
 </script>
 
 <template>
@@ -58,15 +81,17 @@ const { data: stars } = await useFetch<number>(
 
       <!-- Actions -->
       <div class="flex items-center gap-2">
-        <NuxtLink v-if="project.link" :to="project.link" target="_blank">
-          <Button variant="outline" size="sm">
-            {{ $t("projects.visit") }}
-            <Icon name="mingcute:external-link-line" size="16" />
-          </Button>
-        </NuxtLink>
-        <Button v-if="project.previewUrl" variant="outline" size="sm" @click="togglePreview">
-          <Icon name="material-symbols:play-circle-outline-rounded" size="16" />
-        </Button>
+        <TooltipProvider :delay-duration="100">
+          <ProjectCardAction
+            v-for="action in actions"
+            :key="action.label"
+            :label="action.label"
+            :icon="action.icon"
+            :to="action.link"
+            :external="action.external"
+            @show-preview="togglePreview"
+          />
+        </TooltipProvider>
       </div>
     </div>
 

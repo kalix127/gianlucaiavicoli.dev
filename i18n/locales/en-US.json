@@ -98,7 +98,8 @@
   "projects": {
     "label": "Projects",
     "description": "Here are some of the projects I've worked on in my free time. My favorite and most significant contribution is Inspira UI, where I'm the top contributor.",
-    "visit": "Visit Project",
+    "visit_project": "Visit Project",
+    "source_code": "View Source Code",
     "show_preview": "Show Preview",
     "personal_title": "Personal Projects",
     "contributions_title": "Open Source Contributions",

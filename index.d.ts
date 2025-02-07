@@ -35,6 +35,10 @@ declare module "nuxt/schema" {
         url: string;
       }>;
     };
+    projects: {
+      personal: Array<Project>;
+      contributions: Array<Project>;
+    };
     footer: {
       credits: {
         title: string;
@@ -42,6 +46,18 @@ declare module "nuxt/schema" {
       };
     };
   }
+}
+
+export interface Project {
+  github?: string; // <github-username>/<github-repo>
+  title: string;
+  description: string;
+  link: string;
+  previewUrl?: string;
+  icons?: {
+    light?: string;
+    dark?: string;
+  };
 }
 
 export {};

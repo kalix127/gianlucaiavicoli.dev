@@ -131,7 +131,7 @@ export default defineAppConfig({
         title: "KalixOS",
         description: "projects.descriptions.kalixos",
         link: "https://github.com/kalix127/kalixos",
-        previewUrl: "/img/projects/preview.gif",
+        previewUrl: "/img/projects/kalixos.gif",
         icons: {
           light: "manjaro",
           dark: "manjaro",

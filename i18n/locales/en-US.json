@@ -55,7 +55,12 @@
     "violet": "Violet"
   },
   "home": {
-    "label": "Home"
+    "label": "Home",
+    "my_name_is": "My name is",
+    "description": "I'm a front-end developer",
+    "gamer": "Gamer",
+    "designer": "Designer",
+    "traveler": "Traveler"
   },
   "about": {
     "label": "About me",
@@ -155,5 +160,6 @@
     "made_with": "Made with",
     "by": "by",
     "rights_reserved": "All rights reserved"
-  }
+  },
+  "download_cv": "Download resume"
 }

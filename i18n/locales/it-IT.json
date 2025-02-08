@@ -55,7 +55,12 @@
     "violet": "Viola"
   },
   "home": {
-    "label": "Home"
+    "label": "Home",
+    "my_name_is": "Mi chiamo",
+    "description": "Sono uno sviluppatore front-end",
+    "gamer": "Gamer",
+    "designer": "Designer",
+    "traveler": "Viaggiatore"
   },
   "about": {
     "label": "Chi sono",
@@ -155,5 +160,6 @@
     "made_with": "Sviluppato con",
     "by": "da",
     "rights_reserved": "Tutti i diritti riservati"
-  }
+  },
+  "download_cv": "Scarica il curriculum"
 }

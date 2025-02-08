@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { socials } = useAppConfig();
 const { t } = useI18n();
 
 useSeoMeta({
@@ -7,11 +8,106 @@ useSeoMeta({
   description: t("seo.home.description"),
   ogDescription: t("seo.home.description"),
 });
+
+// TODO: Implement
+function downloadCV() {}
+
+const texts = computed(() => [
+  t("home.traveler"),
+  t("home.designer"),
+  t("home.gamer"),
+]);
+
+const socialLinks = [
+  {
+    label: t("socials.profile_github"),
+    icon: "mdi:github",
+    link: socials.github,
+  },
+  {
+    label: t("socials.profile_linkedin"),
+    icon: "mdi:source-branch",
+    link: socials.repository,
+  },
+  {
+    label: t("socials.profile_linkedin"),
+    icon: "mdi:linkedin",
+    link: socials.linkedin,
+  },
+  {
+    label: t("socials.profile_reddit"),
+    icon: "ic:baseline-reddit",
+    link: socials.reddit,
+  },
+  {
+    label: t("socials.profile_x"),
+    icon: "ri:twitter-x-fill",
+    link: socials.x,
+  },
+];
 </script>
 
 <template>
-  <div class="grid h-full place-items-center">
-    Home
+  <div class="grid place-content-center space-y-8">
+    <div class="flex max-w-md flex-col items-center justify-center gap-4">
+      <!-- Title, Subtitle, Description -->
+      <div class="space-y-2 text-center">
+        <h1 class="text-lg font-bold sm:text-xl md:text-2xl">
+          {{ t("home.my_name_is") }}
+        </h1>
+        <!-- Subtitle -->
+        <h2 class="text-3xl font-bold sm:text-4xl md:text-5xl">
+          Gianluca Iavicoli
+        </h2>
+        <!-- Description -->
+        <div class="text-md !mt-2 flex flex-col items-center text-muted-foreground sm:text-lg md:flex-row md:text-xl">
+          <span>
+            {{ t("home.description") }} &
+          </span>
+
+          <div class="min-w-28 text-center sm:text-left">
+            <FlipWords
+              :words="texts"
+              :duration="2000"
+              class="!text-primary"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Socials -->
+      <div class="flex items-center gap-4">
+        <TooltipProvider :delay-duration="50">
+          <Tooltip v-for="social in socialLinks" :key="social.label">
+            <TooltipTrigger as-child>
+              <NuxtLink :to="social.link" external target="_blank">
+                <Button variant="ghost" size="icon">
+                  <Icon :name="social.icon" size="22" />
+                </Button>
+              </NuxtLink>
+            </TooltipTrigger>
+            <TooltipContent side="bottom">
+              <p>{{ social.label }}</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      </div>
+
+      <!-- Download CV -->
+      <div
+        class="relative flex size-fit flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      >
+        <Button variant="outline" size="lg" @click="downloadCV">
+          <Icon name="mdi:download" size="20" />
+          {{ t("download_cv") }}
+        </Button>
+        <BorderBeam
+          :size="70"
+          :duration="7"
+          :border-width="2"
+        />
+      </div>
+    </div>
   </div>
 </template>
 

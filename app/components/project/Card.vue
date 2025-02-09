@@ -39,18 +39,7 @@ const actions = [
   },
 ];
 
-const { data: stars } = await useFetch<number>(
-  `https://api.github.com/repos/${props.project.github}`,
-  {
-    headers: {
-      "Authorization": `Bearer ${process.env.GITHUB_TOKEN}`,
-      "Content-Type": "application/json",
-    },
-    transform: (data: any) => data.stargazers_count as number,
-  },
-);
-
-provide("project", props.project);
+const githubStars = inject<Record<string, number>>("githubStars");
 </script>
 
 <template>
@@ -70,7 +59,7 @@ provide("project", props.project);
         <div v-if="$props.project.github" class="flex items-center gap-1">
           <Icon name="material-symbols:star-rounded" size="16" class="text-[#FFDF00]" />
           <span class="text-sm">
-            {{ stars }}
+            {{ githubStars?.[project.title] }}
           </span>
         </div>
 

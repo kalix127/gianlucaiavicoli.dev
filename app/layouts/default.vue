@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+import {
+  PATTERN_BACKGROUND_VARIANT,
+} from "@/components/inspira-ui/bg-pattern";
 </script>
 
 <template>
@@ -7,7 +10,11 @@
     <main class="m-4 sm:mx-8 md:mx-12 lg:mx-28">
       <slot />
     </main>
-    <Background />
+    <BgPatternBackground
+      :animate="false"
+      :variant="PATTERN_BACKGROUND_VARIANT.Dot"
+      class="fixed inset-0 -z-10"
+    />
     <LayoutFooter />
   </div>
 </template>

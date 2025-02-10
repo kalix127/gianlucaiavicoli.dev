@@ -84,6 +84,10 @@
   "education": {
     "label": "Istruzione & Esperienza",
     "title": "La mia Istruzione & Esperienza",
+    "certifications": {
+      "title": "Le mie Certificazioni",
+      "verify_certification": "Verifica Certificazione"
+    },
     "steps": {
       "diploma": {
         "title": "Diploma di Informatica e Telecomunicazioni",

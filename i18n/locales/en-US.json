@@ -84,6 +84,10 @@
   "education": {
     "label": "Education & Experience",
     "title": "My Education & Experience",
+    "certifications": {
+      "title": "My Certifications",
+      "verify_certification": "Verify Certification"
+    },
     "steps": {
       "diploma": {
         "title": "Diploma in Computer Science and Telecommunications",

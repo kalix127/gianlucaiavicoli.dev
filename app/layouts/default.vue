@@ -20,10 +20,6 @@ import {
 </template>
 
 <style scoped>
-
-</style>
-
-<style scoped>
 .wrapper {
   display: grid;
   min-height: 100svh;

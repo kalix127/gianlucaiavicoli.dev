@@ -39,7 +39,7 @@ const actions = [
   },
 ];
 
-const githubStars = inject<Record<string, number>>("githubStars");
+const { $githubStars } = useNuxtApp();
 </script>
 
 <template>
@@ -58,9 +58,11 @@ const githubStars = inject<Record<string, number>>("githubStars");
 
         <div v-if="$props.project.github" class="flex items-center gap-1">
           <Icon name="material-symbols:star-rounded" size="16" class="text-[#FFDF00]" />
-          <span class="text-sm">
-            {{ githubStars?.[project.title] }}
-          </span>
+          <ClientOnly>
+            <span class="text-sm">
+              {{ $githubStars?.[project.title] }}
+            </span>
+          </ClientOnly>
         </div>
 
         <p class="text-sm text-muted-foreground">

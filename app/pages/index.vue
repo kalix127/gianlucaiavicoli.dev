@@ -99,7 +99,7 @@ const socialLinks = [
       >
         <Button variant="outline" size="lg" @click="downloadCV">
           <Icon name="mdi:download" size="20" />
-          {{ t("download_cv") }}
+          {{ t("home.download_cv") }}
         </Button>
         <BorderBeam
           :size="70"

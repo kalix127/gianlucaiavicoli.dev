@@ -23,7 +23,7 @@ import {
 .wrapper {
   display: grid;
   min-height: 100svh;
-  grid-template-rows: 128px 1fr 84px;
+  grid-template-rows: 80px 1fr 84px;
   grid-template-areas:
     "header"
     "main"
@@ -31,7 +31,7 @@ import {
 }
 @media (min-width: 319px) {
   .wrapper {
-    grid-template-rows: 128px 1fr 64px;
+    grid-template-rows: 80px 1fr 64px;
   }
 }
 

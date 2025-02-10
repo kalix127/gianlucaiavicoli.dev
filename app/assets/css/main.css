@@ -76,3 +76,12 @@
     @apply bg-background text-foreground;
   }
 }
+.main-enter-active,
+.main-leave-active {
+  transition: all 0.4s;
+}
+.main-enter-from,
+.main-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}

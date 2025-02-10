@@ -12,7 +12,8 @@ const currentLocale = ref(initialLocale.value);
 async function handleLocaleChange(locale: Locale["value"]) {
   await setLocale(locale);
   // Update page title when language changes
-  const routeName = route.name as string;
+  const routeName = route.name === "index" ? "home" : route.name as string;
+
   useSeoMeta({
     title: t(`seo.${routeName}.title`),
     ogTitle: t(`seo.${routeName}.title`),

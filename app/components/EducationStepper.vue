@@ -38,9 +38,9 @@ const items = computed(() => [
       </div>
 
       <!-- Separator -->
-      <div class="relative after:absolute after:bottom-0 after:start-3.5 after:top-7 after:w-px after:-translate-x-[0.5px] after:bg-gray-400 dark:after:bg-gray-600">
+      <div class="relative after:absolute after:bottom-0 after:start-3.5 after:top-7 after:w-px after:-translate-x-[0.5px] after:bg-primary dark:after:bg-primary">
         <div class="relative z-10 flex size-7 items-center justify-center">
-          <div class="size-2 rounded-full bg-gray-400 dark:bg-gray-600" />
+          <div class="size-2 rounded-full bg-primary dark:bg-primary" />
         </div>
       </div>
 

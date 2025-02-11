@@ -39,6 +39,12 @@ declare module "nuxt/schema" {
       personal: Array<Project>;
       contributions: Array<Project>;
     };
+    certifications: Array<{
+      title: string;
+      issuer: string;
+      icon: string;
+      url: string;
+    }>;
     footer: {
       credits: {
         title: string;

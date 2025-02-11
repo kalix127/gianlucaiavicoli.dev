@@ -18,8 +18,6 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
-    "@nuxt/fonts",
-    "@nuxt/image",
     "shadcn-nuxt",
     "@nuxtjs/color-mode",
     "nuxt-umami",
@@ -47,9 +45,6 @@ export default defineNuxtConfig({
       redirectOn: "root",
     },
     strategy: "no_prefix",
-  },
-  image: {
-    format: ["webp"],
   },
   shadcn: {
     prefix: "",

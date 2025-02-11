@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "shadcn-nuxt",
     "@nuxtjs/color-mode",
+    "nuxt-umami",
   ],
   css: ["~/assets/css/main.css", "~/assets/css/themes.css"],
   i18n: {
@@ -79,5 +80,13 @@ export default defineNuxtConfig({
       includeCustomCollections: true,
       sizeLimitKb: 256,
     },
+  },
+  umami: {
+    id: "32614c2d-a4b9-45ac-909e-ae176bc20470",
+    host: "https://cloud.umami.is",
+    autoTrack: true,
+    logErrors: true,
+    useDirective: true,
+    ignoreLocalhost: false,
   },
 });

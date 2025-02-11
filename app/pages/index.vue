@@ -81,7 +81,7 @@ const socialLinks = [
           <Tooltip v-for="social in socialLinks" :key="social.label">
             <TooltipTrigger as-child>
               <NuxtLink :to="social.link" external target="_blank">
-                <Button variant="ghost" size="icon">
+                <Button v-umami="social.label" variant="ghost" size="icon">
                   <Icon :name="social.icon" size="22" />
                 </Button>
               </NuxtLink>
@@ -97,7 +97,7 @@ const socialLinks = [
       <div
         class="relative flex size-fit flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
       >
-        <Button variant="outline" size="lg" @click="downloadCV">
+        <Button v-umami="$t('home.download_cv')" variant="outline" size="lg" @click="downloadCV">
           <Icon name="mdi:download" size="20" />
           {{ t("home.download_cv") }}
         </Button>

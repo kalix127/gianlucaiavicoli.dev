@@ -63,6 +63,7 @@ const items = computed(() => [
         >
           <Icon :name="item.icon" size="24" />
           <NuxtLink
+            v-umami="item.title"
             :to="item.to"
             :title="item.title"
             :external="true"

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { socials } = useAppConfig();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 useSeoMeta({
   title: t("seo.home.title"),
@@ -8,9 +8,6 @@ useSeoMeta({
   description: t("seo.home.description"),
   ogDescription: t("seo.home.description"),
 });
-
-// TODO: Implement
-function downloadCV() {}
 
 const texts = computed(() => [
   t("home.traveler"),
@@ -45,6 +42,24 @@ const socialLinks = [
     link: socials.x,
   },
 ];
+
+async function downloadCV() {
+  const pdfPath = `/resume/${locale.value}.pdf`;
+  try {
+    const response = await fetch(pdfPath);
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `gianluca-iavicoli-resume-${locale.value.split("-")[0]}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error("Error downloading CV:", error);
+  }
+}
 </script>
 
 <template>

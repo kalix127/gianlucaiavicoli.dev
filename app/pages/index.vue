@@ -36,12 +36,12 @@ const socialLinks = [
   },
   {
     label: t("socials.profile_reddit"),
-    icon: "ic:baseline-reddit",
+    icon: "mdi:reddit",
     link: socials.reddit,
   },
   {
     label: t("socials.profile_x"),
-    icon: "ri:twitter-x-fill",
+    icon: "mdi:twitter",
     link: socials.x,
   },
 ];

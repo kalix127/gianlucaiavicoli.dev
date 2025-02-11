@@ -87,6 +87,5 @@ export default defineNuxtConfig({
     autoTrack: true,
     logErrors: true,
     useDirective: true,
-    ignoreLocalhost: false,
   },
 });

@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# 👋 Welcome to My Portfolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my personal corner of the web where I showcase my work, skills, and journey as a developer. Built with Nuxt.js and a passion for clean code.
 
-## Setup
+## ✨ Features
 
-Make sure to install dependencies:
+- 🌙 Dark/Light theme support
+- 🌍 Internationalization (English & Italian)
+- 📱 Fully responsive design
+- ⚡ Built with modern tech stack (Nuxt 3, TypeScript, Tailwind CSS)
 
-```bash
-# npm
-npm install
+## 🛠️ Quick Start
+1. Install pnpm (if not already installed):
+   ```bash
+   npm install -g pnpm
+   ```
 
-# pnpm
-pnpm install
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/kalix127/Portfolio.git
+   cd Portfolio
+   ```
 
-# yarn
-yarn install
+3. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-# bun
-bun install
-```
+4. Start development server:
+   ```bash
+   pnpm dev
+   ```
 
-## Development Server
+5. Build for production:
+   ```bash
+   pnpm build
+   ```
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The development server will be available at `http://localhost:3000`

@@ -17,7 +17,7 @@ This is my personal corner of the web where I showcase my work, skills, and jour
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/kalix127/Portfolio.git
+   git clone https://github.com/kalix127/gianlucaiavicoli.dev
    cd Portfolio
    ```
 

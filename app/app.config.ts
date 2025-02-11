@@ -11,7 +11,7 @@ export default defineAppConfig({
   socials: {
     email: "mailto:info@gianlucaiavicoli.dev",
     github: "https://github.com/kalix127",
-    repository: "https://github.com/kalix127/Portfolio",
+    repository: "https://github.com/kalix127/gianlucaiavicoli.dev",
     linkedin: "https://linkedin.com/in/gianluca-iavicoli-684b32262",
     reddit: "https://reddit.com/user/kalix127",
     x: "https://x.com/kalix127",

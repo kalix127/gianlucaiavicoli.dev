@@ -2,8 +2,7 @@ export default defineAppConfig({
   site: {
     title: "site_title",
     description: "site_description",
-    ogImage: "/og.png",
-    ogImageColor: "dark",
+    ogImage: "/img/og.webp",
   },
   theme: {
     color: "zinc",

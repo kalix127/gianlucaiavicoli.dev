@@ -74,15 +74,18 @@ const socialLinks = [
           </div>
         </div>
       </div>
-
       <!-- Socials -->
       <div class="flex items-center gap-4">
         <TooltipProvider :delay-duration="50">
           <Tooltip v-for="social in socialLinks" :key="social.label">
             <TooltipTrigger as-child>
-              <NuxtLink :to="social.link" external target="_blank">
-                <Button v-umami="social.label" variant="ghost" size="icon">
-                  <Icon :name="social.icon" size="22" />
+              <NuxtLink
+                :to="social.link"
+                external
+                target="_blank"
+              >
+                <Button v-umami="social.label" :aria-label="social.label" variant="ghost" size="icon">
+                  <Icon :name="social.icon" size="22" aria-hidden="true" />
                 </Button>
               </NuxtLink>
             </TooltipTrigger>

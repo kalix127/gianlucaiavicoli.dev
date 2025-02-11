@@ -37,6 +37,7 @@
   },
   "theme": {
     "toggle": "Cambia tema",
+    "theme_selector": "Seleziona tema",
     "customize": "Personalizza",
     "color": "Colore",
     "radius": "Raggio",

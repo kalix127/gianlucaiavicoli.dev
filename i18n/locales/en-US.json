@@ -37,6 +37,7 @@
   },
   "theme": {
     "toggle": "Toggle theme",
+    "theme_selector": "Theme selector",
     "customize": "Customize",
     "color": "Color",
     "radius": "Radius",

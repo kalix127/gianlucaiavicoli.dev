@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     pageTransition: { name: "main", mode: "out-in" },
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
   },
   future: {
     compatibilityVersion: 4,

@@ -19,7 +19,7 @@ defineEmits(["showPreview"]);
           :to="$props.to"
           :target="$props.external ? '_blank' : undefined"
         >
-          <Button variant="outline" size="sm">
+          <Button :aria-label="$props.label" variant="outline" size="sm">
             <Icon :name="$props.icon" size="16" />
           </Button>
         </NuxtLink>
@@ -27,7 +27,7 @@ defineEmits(["showPreview"]);
 
       <!-- Preview -->
       <template v-else-if="to">
-        <Button variant="outline" size="sm" @click="$emit('showPreview')">
+        <Button variant="outline" size="sm" :aria-label="$props.label" @click="$emit('showPreview')">
           <Icon :name="$props.icon" size="16" />
         </Button>
       </template>

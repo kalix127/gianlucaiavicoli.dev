@@ -20,6 +20,12 @@ async function handleLocaleChange(locale: Locale["value"]) {
     description: t(`seo.${routeName}.description`),
     ogDescription: t(`seo.${routeName}.description`),
   });
+
+  useHead({
+    htmlAttrs: {
+      lang: locale,
+    },
+  });
 }
 
 const locales: Locale[] = [
@@ -35,10 +41,9 @@ watch(currentLocale, (v) => {
 <template>
   <Select v-model="currentLocale">
     <SelectTrigger as-child>
-      <div data-allow-mismatch="class" class="grid place-content-center">
-        <Button variant="ghost" size="icon">
-          <Icon name="material-symbols:translate" size="18" />
-          <span class="sr-only">{{ t("language.select") }}</span>
+      <div data-allow-mismatch="class" class="grid place-content-center" :aria-label="t('language.select')">
+        <Button variant="ghost" size="icon" aria-label="Select language">
+          <Icon name="material-symbols:translate" size="18" aria-hidden="true" />
         </Button>
       </div>
     </SelectTrigger>

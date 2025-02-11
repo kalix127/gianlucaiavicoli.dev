@@ -46,9 +46,9 @@ const items = computed(() => [
 
       <div class="grow pb-6 pt-0.5">
         <!-- Title -->
-        <h3 class="flex gap-x-1.5 font-semibold text-foreground">
+        <h2 class="flex gap-x-1.5 font-semibold text-foreground">
           {{ item.title }}
-        </h3>
+        </h2>
 
         <!-- Description  -->
         <p class="mt-1 text-sm text-muted-foreground">

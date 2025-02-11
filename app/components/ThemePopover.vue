@@ -7,7 +7,7 @@ const breakpoints = useBreakpoints(breakpointsTailwind);
 <template>
   <Popover>
     <PopoverTrigger as-child>
-      <Button variant="ghost" size="icon">
+      <Button :aria-label="$t('theme.theme_selector')" variant="ghost" size="icon">
         <Icon name="lucide:paintbrush" size="18" />
       </Button>
     </PopoverTrigger>

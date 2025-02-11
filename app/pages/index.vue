@@ -25,7 +25,7 @@ const socialLinks = [
     link: socials.github,
   },
   {
-    label: t("socials.profile_linkedin"),
+    label: t("socials.repository_github"),
     icon: "mdi:source-branch",
     link: socials.repository,
   },

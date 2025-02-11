@@ -23,6 +23,10 @@
     "contact": {
       "title": "Contatti - Gianluca Iavicoli",
       "description": "Mettiti in contatto con me per discutere opportunità di collaborazione o progetti di sviluppo web"
+    },
+    "error": {
+      "title": "Errore - Gianluca Iavicoli",
+      "description": "Si è verificato un errore durante il caricamento della pagina"
     }
   },
   "language": {
@@ -56,9 +60,10 @@
   },
   "home": {
     "label": "Home",
+    "download_cv": "Scarica il curriculum",
     "my_name_is": "Mi chiamo",
     "description": "Sono uno sviluppatore front-end",
-    "gamer": "Gamer",
+    "gamer": "Giocatore",
     "designer": "Designer",
     "traveler": "Viaggiatore"
   },
@@ -79,6 +84,10 @@
   "education": {
     "label": "Istruzione & Esperienza",
     "title": "La mia Istruzione & Esperienza",
+    "certifications": {
+      "title": "Le mie Certificazioni",
+      "verify_certification": "Verifica Certificazione"
+    },
     "steps": {
       "diploma": {
         "title": "Diploma di Informatica e Telecomunicazioni",
@@ -161,5 +170,11 @@
     "by": "da",
     "rights_reserved": "Tutti i diritti riservati"
   },
-  "download_cv": "Scarica il curriculum"
+  "error": {
+    "page_not_found": "Ops! La pagina che stai cercando non esiste",
+    "internal_server_error": "Ops! Si è verificato un errore interno del server",
+    "something_went_wrong": "Si è verificato un errore durante il caricamento della pagina",
+    "go_back": "Torna indietro",
+    "take_home": "Torna alla home"
+  }
 }

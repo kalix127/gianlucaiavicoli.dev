@@ -21,8 +21,12 @@
       "description": "Check out my latest web development projects and open source contributions"
     },
     "contact": {
-      "title": "Contact - Gianluca Iavicoli",
+      "title": "Contact me - Gianluca Iavicoli",
       "description": "Get in touch with me to discuss collaboration opportunities or web development projects"
+    },
+    "error": {
+      "title": "Error - Gianluca Iavicoli",
+      "description": "An error occurred while loading the page"
     }
   },
   "language": {
@@ -56,6 +60,7 @@
   },
   "home": {
     "label": "Home",
+    "download_cv": "Download resume",
     "my_name_is": "My name is",
     "description": "I'm a front-end developer",
     "gamer": "Gamer",
@@ -79,6 +84,10 @@
   "education": {
     "label": "Education & Experience",
     "title": "My Education & Experience",
+    "certifications": {
+      "title": "My Certifications",
+      "verify_certification": "Verify Certification"
+    },
     "steps": {
       "diploma": {
         "title": "Diploma in Computer Science and Telecommunications",
@@ -161,5 +170,11 @@
     "by": "by",
     "rights_reserved": "All rights reserved"
   },
-  "download_cv": "Download resume"
+  "error": {
+    "page_not_found": "Oops! The page you're looking for doesn't exist.",
+    "internal_server_error": "Oops! An internal server error occurred.",
+    "something_went_wrong": "Something went wrong.",
+    "go_back": "Go back",
+    "take_home": "Take me home"
+  }
 }

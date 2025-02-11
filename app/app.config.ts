@@ -186,6 +186,32 @@ export default defineAppConfig({
       },
     ],
   },
+  certifications: [
+    {
+      title: "AWS Fundamentals",
+      issuer: "Amazon Web Services",
+      icon: "aws",
+      url: "https://www.coursera.org/account/accomplishments/specialization/ENR3BQHAEEKG",
+    },
+    {
+      title: "Version Control",
+      issuer: "Meta",
+      icon: "meta",
+      url: "https://www.coursera.org/account/accomplishments/records/37H8H2L2JLMW",
+    },
+    {
+      title: "Python Specialization",
+      issuer: "University of Michigan",
+      icon: "michigan",
+      url: "https://www.coursera.org/account/accomplishments/specialization/YAAQVLEEEAUB",
+    },
+    {
+      title: "Programming with Javascript",
+      issuer: "Meta",
+      icon: "meta",
+      url: "https://www.coursera.org/account/accomplishments/records/M99NRSP7JTVW",
+    },
+  ],
   footer: {
     credits: {
       title: "kalix127",

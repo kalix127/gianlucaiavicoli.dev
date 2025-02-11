@@ -8,8 +8,6 @@ useSeoMeta({
   ogDescription: t("seo.about.description"),
 });
 
-const totalContributions = ref(0);
-
 const items = computed(() => [
   {
     icon: "material-symbols:translate",
@@ -25,11 +23,6 @@ const items = computed(() => [
     icon: "lucide:dna",
     title: t("gender.label"),
     value: t("gender.male"),
-  },
-  {
-    icon: "lucide:github",
-    title: t("github.total_contributions"),
-    value: totalContributions.value,
   },
 ]);
 
@@ -56,32 +49,6 @@ const hobbies = computed(() => [
     label: t("hobbies.gaming"),
   },
 ]);
-
-interface Contribution {
-  color: string;
-  contributionCount: number;
-  contributionLevel: string;
-  date: string;
-}
-
-interface GithubContributions {
-  contributions: Contribution[][];
-  totalContributions: number;
-}
-
-async function fetchGithubContributions() {
-  try {
-    const url = "https://github-contributions-api.deno.dev/kalix127.json";
-    const response = await $fetch<GithubContributions>(url);
-    totalContributions.value = response.totalContributions;
-  } catch (error) {
-    console.error("Error fetching GitHub contributions:", error);
-  }
-}
-
-onMounted(() => {
-  fetchGithubContributions();
-});
 </script>
 
 <template>
@@ -100,7 +67,7 @@ onMounted(() => {
         {{ $t("about.description") }}
       </p>
       <!-- Factos -->
-      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 xs:place-items-start md:grid-cols-4">
+      <div class="grid w-full grid-cols-1 place-items-center gap-4 xs:grid-cols-2 xs:place-items-start md:grid-cols-3">
         <div v-for="item in items" :key="item.title" class="flex flex-col gap-4">
           <div class="flex items-center gap-2">
             <Icon :name="item.icon" size="30" />

@@ -63,10 +63,7 @@
     "label": "Home",
     "download_cv": "Scarica il curriculum",
     "my_name_is": "Mi chiamo",
-    "description": "Sono uno sviluppatore front-end",
-    "gamer": "Giocatore",
-    "designer": "Designer",
-    "traveler": "Viaggiatore"
+    "description": "Sono uno sviluppatore front-end"
   },
   "about": {
     "label": "Chi sono",

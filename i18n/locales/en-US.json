@@ -63,10 +63,7 @@
     "label": "Home",
     "download_cv": "Download resume",
     "my_name_is": "My name is",
-    "description": "I'm a front-end developer",
-    "gamer": "Gamer",
-    "designer": "Designer",
-    "traveler": "Traveler"
+    "description": "I'm a front-end developer"
   },
   "about": {
     "label": "About me",

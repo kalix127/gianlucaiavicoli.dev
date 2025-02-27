@@ -9,12 +9,6 @@ useSeoMeta({
   ogDescription: t("seo.home.description"),
 });
 
-const texts = computed(() => [
-  t("home.traveler"),
-  t("home.designer"),
-  t("home.gamer"),
-]);
-
 const socialLinks = [
   {
     label: t("socials.profile_github"),
@@ -75,31 +69,24 @@ async function downloadCV() {
           Gianluca Iavicoli
         </h2>
         <!-- Description -->
-        <div class="text-md !mt-2 flex flex-col items-center text-muted-foreground sm:text-lg md:flex-row md:text-xl">
-          <span>
-            {{ t("home.description") }} &
-          </span>
-
-          <div class="min-w-28 text-center sm:text-left">
-            <FlipWords
-              :words="texts"
-              :duration="2000"
-              class="!text-primary"
-            />
-          </div>
-        </div>
+        <span
+          class="text-md !mt-2 text-muted-foreground sm:text-lg md:flex-row md:text-xl"
+        >
+          {{ t("home.description") }}
+        </span>
       </div>
       <!-- Socials -->
       <div class="flex items-center gap-4">
         <TooltipProvider :delay-duration="50">
           <Tooltip v-for="social in socialLinks" :key="social.label">
             <TooltipTrigger as-child>
-              <NuxtLink
-                :to="social.link"
-                external
-                target="_blank"
-              >
-                <Button v-umami="social.label" :aria-label="social.label" variant="ghost" size="icon">
+              <NuxtLink :to="social.link" external target="_blank">
+                <Button
+                  v-umami="social.label"
+                  :aria-label="social.label"
+                  variant="ghost"
+                  size="icon"
+                >
                   <Icon :name="social.icon" size="22" aria-hidden="true" />
                 </Button>
               </NuxtLink>
@@ -115,20 +102,19 @@ async function downloadCV() {
       <div
         class="relative flex size-fit flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
       >
-        <Button v-umami="$t('home.download_cv')" variant="outline" size="lg" @click="downloadCV">
+        <Button
+          v-umami="$t('home.download_cv')"
+          variant="outline"
+          size="lg"
+          @click="downloadCV"
+        >
           <Icon name="mdi:download" size="20" />
           {{ t("home.download_cv") }}
         </Button>
-        <BorderBeam
-          :size="70"
-          :duration="7"
-          :border-width="2"
-        />
+        <BorderBeam :size="70" :duration="7" :border-width="2" />
       </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

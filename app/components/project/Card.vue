@@ -38,8 +38,6 @@ const actions = [
     link: props.project.previewUrl,
   },
 ];
-
-const { $githubStars } = useNuxtApp();
 </script>
 
 <template>
@@ -54,15 +52,6 @@ const { $githubStars } = useNuxtApp();
           <h3 class="text-lg font-semibold">
             {{ project.title }}
           </h3>
-        </div>
-
-        <div v-if="$props.project.github" class="flex items-center gap-1">
-          <Icon name="material-symbols:star-rounded" size="16" class="text-[#FFDF00]" />
-          <ClientOnly>
-            <span class="text-sm">
-              {{ $githubStars?.[project.title] }}
-            </span>
-          </ClientOnly>
         </div>
 
         <p class="text-sm text-muted-foreground">

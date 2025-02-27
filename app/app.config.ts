@@ -151,7 +151,6 @@ export default defineAppConfig({
     ],
     contributions: [
       {
-        github: "unovue/inspira-ui",
         title: "Inspira UI",
         description: "projects.descriptions.inspira_ui",
         sourceUrl: "https://github.com/unovue/inspira-ui",
@@ -162,7 +161,6 @@ export default defineAppConfig({
         },
       },
       {
-        github: "unovue/shadcn-vue",
         title: "Shadcn-Vue",
         description: "projects.descriptions.shadcn_vue",
         sourceUrl: "https://github.com/unovue/shadcn-vue",
@@ -173,7 +171,6 @@ export default defineAppConfig({
         },
       },
       {
-        github: "ZTL-UwU/shadcn-docs-nuxt",
         title: "Shadcn Docs",
         description: "projects.descriptions.shadcn_docs",
         sourceUrl: "https://github.com/ZTL-UwU/shadcn-docs-nuxt",

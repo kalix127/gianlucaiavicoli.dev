@@ -55,7 +55,6 @@ declare module "nuxt/schema" {
 }
 
 export interface Project {
-  github?: string; // <github-username>/<github-repo>
   title: string;
   description: string;
   sourceUrl?: string;
